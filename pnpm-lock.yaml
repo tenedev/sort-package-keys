@@ -8,8 +8,8 @@ importers:
   .:
     devDependencies:
       '@tenedev/prettier-config':
-        specifier: ^1.0.0
-        version: 1.0.0(prettier@3.8.1)
+        specifier: ^1.3.0
+        version: 1.3.0(prettier@3.8.1)
       '@types/node':
         specifier: ^25.3.0
         version: 25.3.0
@@ -212,10 +212,10 @@ packages:
       '@types/node':
         optional: true
 
-  '@tenedev/prettier-config@1.0.0':
+  '@tenedev/prettier-config@1.3.0':
     resolution:
       {
-        integrity: sha512-JdtsSifLDfYZ8TtMJcT78T3Wk7tCux7HL/ArDZnLCjJo8akFcMWLuqw+zYBhLAF/28/S+3YLEQUnavnd/zs4rw==,
+        integrity: sha512-2Ofz06jCqpDT8VqoiPn6dF9KcBe+DnZUEv614mvo+Vvnmn5e/QvOg9G1Esg83uZ/LwslBjR9J3tHs8uw/giG7A==,
       }
     engines: { node: '>=14' }
     peerDependencies:
@@ -620,6 +620,12 @@ packages:
     engines: { node: '>=20' }
     hasBin: true
 
+  sort-package-keys@2.0.0:
+    resolution:
+      {
+        integrity: sha512-LD6yRNs9S5Z9D5+cBLYyfM/ZJfnJYp8UzGA8k/IWCOKCr9hEcGtPnESL6Esms5UnVRbkmZtqU942IT2ezNa0Yg==,
+      }
+
   source-map@0.6.1:
     resolution:
       {
@@ -883,9 +889,11 @@ snapshots:
     optionalDependencies:
       '@types/node': 25.3.0
 
-  '@tenedev/prettier-config@1.0.0(prettier@3.8.1)':
+  '@tenedev/prettier-config@1.3.0(prettier@3.8.1)':
     dependencies:
       prettier: 3.8.1
+      prettier-plugin-packagejson: 3.0.0(prettier@3.8.1)
+      sort-package-keys: 2.0.0
 
   '@types/node@25.3.0':
     dependencies:
@@ -1093,6 +1101,8 @@ snapshots:
       semver: 7.7.4
       sort-object-keys: 2.1.0
       tinyglobby: 0.2.15
+
+  sort-package-keys@2.0.0: {}
 
   source-map@0.6.1: {}
 
