@@ -44,8 +44,8 @@
     "@types/node": "^25.9.5",
     "husky": "^9.1.7",
     "lint-staged": "^17.2.0",
-    "prettier": "^3.8.1",
-    "prettier-plugin-packagejson": "^3.0.0",
+    "prettier": "^3.9.6",
+    "prettier-plugin-packagejson": "^3.0.2",
     "release-hub": "1.0.0-beta.1"
   },
   "prettier": "@tenedev/prettier-config",
